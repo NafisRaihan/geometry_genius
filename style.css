@@ -1,0 +1,21 @@
+.interactive-card{
+    display: flex;
+    align-items: center;
+    column-gap: 1450px;
+    border-radius: 8px;
+    background: rgba(16, 144, 216, 0.10);
+    margin: 50px;
+    padding-inline: 50px;
+}
+.blog-span{
+    color: grey;
+}
+.blog-click{
+    font-size: large;
+    border: #1090D8;
+    border-radius: 8px;
+    background: #1090D8;
+    padding-inline:38px ;
+    padding-block: 9px;
+    color:  white;
+}
