@@ -30,10 +30,10 @@
                         area=0.5*b*h
                     </p>
                     <div class="input">
-                        <input type="number" placeholder="b">
-                        <input type="number" placeholder="h">
+                        <input type="number" id="base" placeholder="b">
+                        <input type="number" id="height" placeholder="h">
                     </div>
-                    <button class="calculate blog-click">
+                    <button onclick="calculateArea()" class="calculate blog-click">
                         Calculate
                     </button>
                 </div>
@@ -113,6 +113,9 @@
                     <h4>
                         Area Calculation
                     </h4>
+                    <div id="area-show">
+
+                    </div>
                 </div>
                 <div class="area-main">
 
@@ -128,5 +131,6 @@
 
 
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
